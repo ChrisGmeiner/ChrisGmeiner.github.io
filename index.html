@@ -7,7 +7,7 @@
     body {
       margin: 0;
       padding: 0;
-      background-color: #121212; /* dark mode background */
+      background-color: #121212;
       color: #f1f1f1;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       text-align: center;
@@ -15,7 +15,7 @@
 
     header {
       position: relative;
-      padding: 10px;
+      padding: 20px;
     }
 
     .logo {
@@ -27,12 +27,18 @@
 
     h1 {
       font-size: 4rem;
-      margin: 50px 0 10px;
+      margin-bottom: 60px; /* 👈 spacing between title and next section */
+    }
+
+    .otx-img {
+      height: 500px;
+      margin-top: 30px; /* 👈 spacing before image */
     }
 
     p {
       font-size: 2rem;
       color: #ccc;
+      margin-top: 40px; /* 👈 spacing after image */
     }
   </style>
 </head>
@@ -40,9 +46,11 @@
   <header>
     <img src="logo.png" alt="Logo" class="logo">
     <h1>SentryVerse</h1>
-<div style="position: relative; height: 100px;">
-  <img src="Otx.PNG" alt="Logo" style="position: absolute; top: 150px; left: 30px; height: 500px;">
   </header>
-  <p>Otx/Stx</p>
+
+  <!-- Content Section -->
+  <img src="Otx.PNG" alt="Otx Image" class="otx-img">
+  <p>OTx/STx</p>
 </body>
 </html>
+
